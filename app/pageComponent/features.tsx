@@ -33,7 +33,7 @@ export const Features = () => {
         </div>
 
         {/* Right Content - Clean Notes Mockup */}
-        <div className="bg-slate-50/50 rounded-3xl border border-slate-100 p-6 md:p-8 flex flex-col justify-center items-center relative overflow-hidden min-h-[360px]">
+        <div className="bg-slate-50/50 rounded-3xl border border-slate-100 p-6 md:p-8 flex flex-col justify-center items-center relative overflow-hidden min-h-90">
           <div className="w-full max-w-sm bg-white rounded-2xl border border-slate-200/60 shadow-[0_8px_30px_rgb(0,0,0,0.02)] p-5 relative select-none">
             {/* Mockup Header */}
             <div className="flex items-center justify-between pb-3.5 border-b border-slate-100 mb-4">
@@ -74,20 +74,20 @@ export const Features = () => {
                 </span>
                 <ul className="space-y-2.5">
                   <li className="flex items-start gap-2 text-xs text-slate-700 font-medium">
-                    <div className="w-4 h-4 bg-emerald-50 border border-emerald-200 rounded flex items-center justify-center text-emerald-600 mt-0.5 flex-shrink-0">
-                      <Check className="w-3 h-3 stroke-[3]" />
+                    <div className="w-4 h-4 bg-emerald-50 border border-emerald-200 rounded flex items-center justify-center text-emerald-600 mt-0.5 shrink-0">
+                      <Check className="w-3 h-3 stroke-3" />
                     </div>
                     <span>Refactor layout.tsx fonts and meta</span>
                   </li>
                   <li className="flex items-start gap-2 text-xs text-slate-700 font-medium">
-                    <div className="w-4 h-4 bg-emerald-50 border border-emerald-200 rounded flex items-center justify-center text-emerald-600 mt-0.5 flex-shrink-0">
-                      <Check className="w-3 h-3 stroke-[3]" />
+                    <div className="w-4 h-4 bg-emerald-50 border border-emerald-200 rounded flex items-center justify-center text-emerald-600 mt-0.5 shrink-0">
+                      <Check className="w-3 h-3 stroke-3" />
                     </div>
                     <span>Redesign Scribe mockup component</span>
                   </li>
                   <li className="flex items-start gap-2 text-xs text-slate-400 line-through font-medium">
-                    <div className="w-4 h-4 bg-slate-50 border border-slate-200 rounded flex items-center justify-center text-slate-400 mt-0.5 flex-shrink-0">
-                      <Check className="w-3 h-3 stroke-[3]" />
+                    <div className="w-4 h-4 bg-slate-50 border border-slate-200 rounded flex items-center justify-center text-slate-400 mt-0.5 shrink-0">
+                      <Check className="w-3 h-3 stroke-3" />
                     </div>
                     <span>Set up Next.js configuration</span>
                   </li>

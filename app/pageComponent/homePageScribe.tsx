@@ -46,7 +46,7 @@ export const Scribe = () => {
           <button
             type="button"
             key={tab.title}
-            className={`flex items-center gap-1.5 pb-2 text-sm font-medium transition-all duration-200 border-b-2 -mb-[9px] ${
+            className={`flex items-center gap-1.5 pb-2 text-sm font-medium transition-all duration-200 border-b-2 -mb-2.25 ${
               tab.active
                 ? "border-violet-600 text-violet-600 font-semibold"
                 : "border-transparent text-slate-400 hover:text-slate-600"

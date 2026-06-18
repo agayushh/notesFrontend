@@ -6,6 +6,7 @@ import {
   Geist_Mono,
   Open_Sans,
 } from "next/font/google";
+import type React from "react";
 
 import "./globals.css";
 

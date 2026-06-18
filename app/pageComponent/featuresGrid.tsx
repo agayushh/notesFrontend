@@ -22,9 +22,9 @@ export const FeaturesGrid = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Card 1: Sign Documents in Seconds (Col 1, Top) */}
           <div className="flex flex-col gap-4">
-            <div className="h-[380px] bg-[#e8e6ff] rounded-3xl p-8 flex flex-col items-center justify-between relative overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div className="h-95 bg-[#e8e6ff] rounded-3xl p-8 flex flex-col items-center justify-between relative overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300">
               {/* Brand Floating Icons Illustration */}
-              <div className="relative w-full h-[220px] flex items-center justify-center">
+              <div className="relative w-full h-55 flex items-center justify-center">
                 {/* Background glow */}
                 <div className="absolute w-40 h-40 bg-white/20 rounded-full blur-2xl pointer-events-none" />
 
@@ -60,8 +60,8 @@ export const FeaturesGrid = () => {
                 </div>
 
                 {/* Big Purple Folder at the bottom */}
-                <div className="absolute bottom-[-10px] w-[180px] h-[120px] bg-[#a89eff] rounded-t-2xl shadow-lg flex items-center justify-center group-hover:translate-y-[-4px] transition-transform duration-300">
-                  <div className="w-[140px] h-[90px] bg-[#9387ff] rounded-t-xl mt-4 relative flex items-center justify-center shadow-inner">
+                <div className="absolute -bottom-2 w-45 h-27 bg-[#a89eff] rounded-t-2xl shadow-lg flex items-center justify-center group-hover:-translate-y-1 transition-transform duration-300">
+                  <div className="w-35 h-22 bg-[#9387ff] rounded-t-xl mt-4 relative flex items-center justify-center shadow-inner">
                     <div className="w-10 h-1 bg-[#b2a9ff] rounded-full absolute top-3" />
                   </div>
                 </div>
@@ -74,14 +74,14 @@ export const FeaturesGrid = () => {
           </div>
 
           {/* Card 2: Capture & Share with Ease (Col 2) */}
-          <div className="bg-[#e2ebff] rounded-3xl p-8 h-[432px] flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
+          <div className="bg-[#e2ebff] rounded-3xl p-8 h-108 flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
             {/* Top Illustration: Voice/Video recorder panel */}
             <div className="w-full flex flex-col items-center pt-4 relative">
               {/* Blur backdrop */}
               <div className="absolute w-36 h-36 bg-blue-400/10 rounded-full blur-xl pointer-events-none" />
 
               {/* Recorder Box */}
-              <div className="w-full max-w-[200px] bg-white/70 backdrop-blur-md rounded-2xl border border-white/50 p-4 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex items-center justify-between gap-3 relative z-10 group-hover:scale-[1.02] transition-transform duration-300">
+              <div className="w-full max-w-50 bg-white/70 backdrop-blur-md rounded-2xl border border-white/50 p-4 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex items-center justify-between gap-3 relative z-10 group-hover:scale-[1.02] transition-transform duration-300">
                 <span className="text-sm font-semibold text-slate-700 font-mono tracking-tight">
                   0:00
                 </span>
@@ -97,9 +97,9 @@ export const FeaturesGrid = () => {
               </div>
 
               {/* Padlock Icon */}
-              <div className="mt-8 flex items-center justify-center text-[#1e293b] group-hover:rotate-[-6deg] transition-transform duration-300">
+              <div className="mt-8 flex items-center justify-center text-[#1e293b] group-hover:-rotate-6 transition-transform duration-300">
                 <div className="w-16 h-16 border-2.5 border-[#1e293b] rounded-2xl relative flex items-center justify-center">
-                  <div className="absolute top-[-22px] w-10 h-10 border-2.5 border-b-0 border-[#1e293b] rounded-t-full" />
+                  <div className="absolute -top-5 w-10 h-10 border-2.5 border-b-0 border-[#1e293b] rounded-t-full" />
                   <div className="w-2 h-4 bg-[#1e293b] rounded-full mt-1" />
                 </div>
               </div>
@@ -113,16 +113,16 @@ export const FeaturesGrid = () => {
           </div>
 
           {/* Card 3: Know Who Files Accesses (Col 3) */}
-          <div className="bg-[#e1f0ec] rounded-3xl p-8 h-[432px] flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
+          <div className="bg-[#e1f0ec] rounded-3xl p-8 h-108 flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
             {/* Connection Diagram Illustration */}
             <div className="w-full flex flex-col items-center pt-2 relative z-10">
               {/* Document block */}
-              <div className="bg-white rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.04)] p-3 border border-slate-100 flex items-center gap-2.5 w-full max-w-[210px] group-hover:translate-y-[-2px] transition-transform duration-300">
+              <div className="bg-white rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.04)] p-3 border border-slate-100 flex items-center gap-2.5 w-full max-w-50 group-hover:-translate-y-0.5 transition-transform duration-300">
                 <div className="w-8 h-8 rounded-lg bg-[#e0f2fe] flex items-center justify-center text-blue-500">
                   <FileText className="w-4 h-4" />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="text-[11px] font-bold text-slate-700 truncate max-w-[110px]">
+                  <span className="text-[11px] font-bold text-slate-700 truncate max-w-28">
                     ProjectPlan_v1.0.docx
                   </span>
                   <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">
@@ -132,7 +132,7 @@ export const FeaturesGrid = () => {
               </div>
 
               {/* Connecting lines SVG */}
-              <div className="w-full max-w-[210px] h-12 relative">
+              <div className="w-full max-w-15 h-12 relative">
                 <svg
                   className="w-full h-full"
                   viewBox="0 0 200 48"
@@ -166,8 +166,8 @@ export const FeaturesGrid = () => {
               {/* User profile cards below */}
               <div className="flex gap-3 w-full justify-center mt-0.5">
                 {/* Jordan */}
-                <div className="bg-white rounded-xl shadow-[0_6px_20px_rgba(0,0,0,0.03)] border border-slate-100 p-2.5 flex items-center gap-2 max-w-[110px] group-hover:scale-[1.01] transition-transform duration-300">
-                  <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 flex-shrink-0">
+                <div className="bg-white rounded-xl shadow-[0_6px_20px_rgba(0,0,0,0.03)] border border-slate-100 p-2.5 flex items-center gap-2 max-w-28 group-hover:scale-[1.01] transition-transform duration-300">
+                  <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 shrink-0">
                     <User className="w-3.5 h-3.5" />
                   </div>
                   <div className="flex flex-col text-left overflow-hidden">
@@ -181,8 +181,8 @@ export const FeaturesGrid = () => {
                 </div>
 
                 {/* Samira */}
-                <div className="bg-white rounded-xl shadow-[0_6px_20px_rgba(0,0,0,0.03)] border border-slate-100 p-2.5 flex items-center gap-2 max-w-[110px] group-hover:scale-[1.01] transition-transform duration-300">
-                  <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 flex-shrink-0">
+                <div className="bg-white rounded-xl shadow-[0_6px_20px_rgba(0,0,0,0.03)] border border-slate-100 p-2.5 flex items-center gap-2 max-w-28 group-hover:scale-[1.01] transition-transform duration-300">
+                  <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 shrink-0">
                     <User className="w-3.5 h-3.5" />
                   </div>
                   <div className="flex flex-col text-left overflow-hidden">
@@ -206,10 +206,10 @@ export const FeaturesGrid = () => {
 
           {/* Card 4: Instant Mail Notes Synced (Col 1, Bottom) */}
           <div className="flex flex-col gap-4">
-            <div className="bg-[#c3bcff] rounded-3xl p-8 h-[380px] flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
+            <div className="bg-[#c3bcff] rounded-3xl p-8 h-108 flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
               {/* Heading/Icon block at top */}
               <div className="flex justify-between items-start">
-                <h3 className="text-2xl font-bold text-slate-900 leading-tight font-archivo max-w-[160px]">
+                <h3 className="text-2xl font-bold text-slate-900 leading-tight font-archivo max-w-40">
                   Instant mail <br />
                   notes synced
                 </h3>
@@ -219,13 +219,13 @@ export const FeaturesGrid = () => {
               </div>
 
               {/* Browser Mockup window at bottom */}
-              <div className="w-full bg-[#f8f7ff] rounded-t-2xl border border-white/60 shadow-[0_8px_30px_rgba(0,0,0,0.05)] pt-3 px-4 pb-0 h-[170px] relative mt-4 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <div className="w-full bg-[#f8f7ff] rounded-t-2xl border border-white/60 shadow-[0_8px_30px_rgba(0,0,0,0.05)] pt-3 px-4 pb-0 h-42 relative mt-4 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                 {/* Header title/bar */}
                 <div className="flex items-center justify-between pb-2 border-b border-slate-200/50 mb-3">
-                  <span className="text-[10px] font-bold text-slate-500 tracking-tight truncate max-w-[150px]">
+                  <span className="text-[10px] font-bold text-slate-500 tracking-tight truncate max-w-42">
                     Scribeo is creating notes from mail...
                   </span>
-                  <div className="flex items-center gap-1 flex-shrink-0">
+                  <div className="flex items-center gap-1 shrink-0">
                     <div className="w-1.5 h-1.5 rounded-full bg-slate-300" />
                     <div className="w-1.5 h-1.5 rounded-full bg-slate-300" />
                     <div className="w-1.5 h-1.5 rounded-full bg-slate-300" />
@@ -234,7 +234,7 @@ export const FeaturesGrid = () => {
 
                 {/* Subheader Tabs */}
                 <div className="flex gap-2.5 border-b border-slate-100 pb-2 mb-3">
-                  <div className="flex items-center gap-1 text-[9px] font-extrabold text-violet-600 border-b-1.5 border-violet-500 pb-1 flex-shrink-0">
+                  <div className="flex items-center gap-1 text-[9px] font-extrabold text-violet-600 border-b-1.5 border-violet-500 pb-1 shrink-0">
                     <span className="w-1.5 h-1.5 rounded-full bg-violet-600 animate-pulse" />
                     Auto Notes
                   </div>
@@ -260,7 +260,7 @@ export const FeaturesGrid = () => {
           </div>
 
           {/* Card 5: Find Files Instantly (Col 2-3, Bottom, Spans 2) */}
-          <div className="bg-[#f2f1fc] rounded-3xl p-8 h-[380px] md:col-span-2 flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
+          <div className="bg-[#f2f1fc] rounded-3xl p-8 h-104 md:col-span-2 flex flex-col justify-between relative overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group">
             <div className="flex justify-between items-start h-full">
               {/* Left Side: Document list & heading at bottom */}
               <div className="flex flex-col justify-between h-full w-[55%] z-10">
@@ -315,7 +315,7 @@ export const FeaturesGrid = () => {
                 {/* Speech Bubble */}
                 <div className="absolute top-12 right-2 md:right-8 bg-black text-white text-[11px] font-bold py-1.5 px-3 rounded-full flex items-center justify-center shadow-lg animate-float-slow select-none">
                   m~
-                  <div className="absolute bottom-[-4px] left-4 w-2 h-2 bg-black rotate-45" />
+                  <div className="absolute -bottom-1 left-4 w-2 h-2 bg-black rotate-45" />
                 </div>
 
                 {/* Cute Mascot Mascot */}

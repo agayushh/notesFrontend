@@ -11,7 +11,7 @@ export const Header = () => {
       {/* Main Hero Title */}
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#090d1a] tracking-tight leading-[1.1] font-archivo max-w-3xl mb-4">
         Every Conversation into <br />
-        <span className="bg-gradient-to-r from-slate-900 to-slate-850 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-slate-900 to-slate-850 bg-clip-text text-transparent">
           Actionable Notes
         </span>
       </h1>
